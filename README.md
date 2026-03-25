@@ -1,4 +1,4 @@
-# 🎆 fWorks – Fireworks Simulation (WPF)
+# Fireworks Simulation (WPF)
 
 A real-time fireworks simulation built in WPF, ported from Caleb Miller’s CodePen implementation using a custom particle system and rendering loop.
 
@@ -32,8 +32,8 @@ The application renders animated fireworks using a particle system with:
 
 ## ⚙️ Technologies
 
-- **.NET (WPF)**
-- **C#**
+- .NET (WPF)
+- C#
 - Custom rendering via `FrameworkElement`
 - Object-oriented simulation architecture
 
@@ -50,5 +50,3 @@ The application renders animated fireworks using a particle system with:
 
 ```bash
 git clone https://github.com/CarloAndreoli/FireworkSimulatorWpfApp.git
-cd fWorks
-dotnet run
