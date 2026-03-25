@@ -1,0 +1,38 @@
+<Window x:Class="fWorks.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:fWorks"
+        mc:Ignorable="d"
+        Title="fWorks" Height="1000" Width="1900" Background="Black">
+    <Grid>
+        <Canvas x:Name="_MyCanvas" Grid.Row="0">
+            <local:VisualFrameworkElement x:Name="_MyDraw" />
+        </Canvas>
+
+        <Grid VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Content="Launch" Height="20" Width="75" Click="_LaunchFirework"/>
+            <ComboBox Grid.Column="1" x:Name="myCombobox" Width="100" Height="25" Margin="5"/>
+            <Button Grid.Column="2" Content="Demo" Height="20" Width="75" Click="Button_Click_1"/>
+            <TextBlock Grid.Column="3" Foreground="White" TextWrapping="Wrap" x:Name="myTextbox1" VerticalAlignment="Center" Margin="5"/>
+            <TextBlock Grid.Column="4" Foreground="White" TextWrapping="Wrap" x:Name="myTextbox2" VerticalAlignment="Center" Margin="5"/>
+            <TextBlock Grid.Column="5" Foreground="White" TextWrapping="Wrap" x:Name="myTextbox3" VerticalAlignment="Center" Margin="5"/>
+            <TextBlock Grid.Column="6" Foreground="White" TextWrapping="Wrap" x:Name="myTextbox4" VerticalAlignment="Center" Margin="5"/>
+            <TextBlock Grid.Column="7" Foreground="White" TextWrapping="Wrap" x:Name="myTextbox5" VerticalAlignment="Center" Margin="5"/>
+            <TextBlock Grid.Column="8" Foreground="White" TextWrapping="Wrap" x:Name="myTextbox6" VerticalAlignment="Center" Margin="5"/>
+        </Grid>
+    </Grid>
+</Window>
