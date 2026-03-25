@@ -50,3 +50,13 @@ The application renders animated fireworks using a particle system with:
 
 ```bash
 git clone https://github.com/CarloAndreoli/FireworkSimulatorWpfApp.git
+```
+
+## 🙏 Credits
+
+Original concept and implementation:
+
+- Caleb Miller  
+- 🔗 [Firework Simulator v2 (CodePen)](https://codepen.io/MillerTime/pen/XgpNwb)
+
+This project is a WPF port of the original JavaScript simulation.
